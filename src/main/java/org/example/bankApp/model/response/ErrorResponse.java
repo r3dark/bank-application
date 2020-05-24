@@ -1,5 +1,9 @@
 package org.example.bankApp.model.response;
 
+/**
+ * @author rohitsharma
+ */
+
 public class ErrorResponse {
 
 	private String errorMessage;

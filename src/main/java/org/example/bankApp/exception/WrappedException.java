@@ -2,6 +2,10 @@ package org.example.bankApp.exception;
 
 import org.springframework.http.HttpStatus;
 
+/**
+ * @author rohitsharma
+ */
+
 public class WrappedException extends Exception {
 
 	private String message;

@@ -2,8 +2,11 @@ package org.example.bankApp.model;
 
 import org.springframework.stereotype.Component;
 
-import javax.persistence.Entity;
 import java.util.List;
+
+/**
+ * @author rohitsharma
+ */
 
 @Component
 public class HeadOffice {

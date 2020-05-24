@@ -1,9 +1,11 @@
 package org.example.bankApp.service;
 
-import org.example.bankApp.data.BankAccountDao;
 import org.example.bankApp.model.BankAccount;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+/**
+ * @author rohitsharma
+ */
 
 @Service
 public class SavingAccountService extends BankAccountService {

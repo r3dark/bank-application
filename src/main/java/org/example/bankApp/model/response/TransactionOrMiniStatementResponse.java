@@ -4,6 +4,10 @@ import org.example.bankApp.model.Transaction;
 
 import java.util.List;
 
+/**
+ * @author rohitsharma
+ */
+
 public class TransactionOrMiniStatementResponse {
 
 	private List<Transaction> transactions;

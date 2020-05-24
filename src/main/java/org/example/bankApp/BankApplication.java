@@ -9,6 +9,10 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+/**
+ * @author rohitsharma
+ */
+
 @SpringBootApplication
 @EnableJpaRepositories ("org.example.bankApp")
 @ComponentScan (basePackages = "org.example.bankApp")
@@ -21,6 +25,9 @@ public class BankApplication {
 	public static void main(String[] args) {
 
 		log.info("Starting Bank Application...");
+
 		SpringApplication.run(BankApplication.class, args);
+
+		log.info("Stopping Bank Application...");
 	}
 }

@@ -7,6 +7,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * @author rohitsharma
+ */
+
 @Entity
 @Component
 public class Transaction {

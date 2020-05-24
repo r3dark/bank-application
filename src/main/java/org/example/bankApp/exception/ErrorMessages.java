@@ -1,5 +1,9 @@
 package org.example.bankApp.exception;
 
+/**
+ * @author rohitsharma
+ */
+
 public enum ErrorMessages {
 
 	INVALID_BRANCH_ID ("Invalid request. Required field Branch Id can not be null, empty or less than 1"),

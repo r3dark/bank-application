@@ -3,6 +3,10 @@ package org.example.bankApp.model.request;
 import org.example.bankApp.model.BankAccount;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author rohitsharma
+ */
+
 @Component
 public class CreateBankAccountRequest {
 
