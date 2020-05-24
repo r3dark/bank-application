@@ -1,5 +1,5 @@
-# Parking Lot Application
-This is a Banking application which can
+# Bank Application
+This is a Bank application which can
 set up a branch, create accounts in the specific
 branch and perform set of operations on
 the bank account of customer for eg.

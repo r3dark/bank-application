@@ -27,7 +27,5 @@ public class BankApplication {
 		log.info("Starting Bank Application...");
 
 		SpringApplication.run(BankApplication.class, args);
-
-		log.info("Stopping Bank Application...");
 	}
 }
