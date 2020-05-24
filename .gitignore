@@ -1,0 +1,28 @@
+.classpath
+.project
+.settings
+
+lib
+logs
+.idea
+dist
+build
+
+# Operating System Files
+*.DS_Store
+*~
+.#*
+#*
+*#
+
+# Build Files #
+out
+target
+build/
+.gradle
+
+# IntelliJ IDEA Files #
+*.iml
+*.ipr
+*.iws
+*.idea
