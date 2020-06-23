@@ -5,7 +5,7 @@ branch and perform set of operations on
 the bank account of customer for eg.
 deposit money, withdraw money, view transaction
 history, view mini statement (last 10 transactions)
-and many more... all in real time.
+etc... all in real time.
 
 ## Getting started
 These instructions will get you a copy of 
@@ -25,11 +25,18 @@ by Gradle.
 - Git 2.21.0
 
 ### Setup
-To setup the project, open terminal at root 
+Clone the repository to your local:
+
+```sh
+$ git clone https://github.com/r3dark/auto-complete.git
+```
+
+To set up the project, open terminal at root 
 of project and execute : 
 
-```
-gradle build --refresh-dependencies
+```sh
+$ gradle clean test
+$ gradle clean build --refresh-dependencies
 ```
 
 This will run the test suite, 
@@ -41,17 +48,17 @@ To run this project, either import it in
 **Intellij Idea** or run the following command
 at root of the project :
 
-```
-java -jar build/libs/bank-application-1.0-SNAPSHOT.jar
+```sh
+$ java -jar build/libs/bank-application-1.0-SNAPSHOT.jar
 ```
 
 ### How to use
-You can import the **Postman Collection** provided in : 
+- Import the **Postman Collection** provided in : 
 
 ```
 src/main/resources/BankApp_PostmanCollection.json
 ```
 
-or you can use [**Swagger**](http://localhost:8080/bank/swagger-ui.html) as well.
+- Use [**Swagger**](http://localhost:8080/bank/swagger-ui.html) (recommended)
 
 
