@@ -59,6 +59,6 @@ $ java -jar build/libs/bank-application-1.0-SNAPSHOT.jar
 src/main/resources/BankApp_PostmanCollection.json
 ```
 
-- Use [**Swagger**](http://localhost:8080/bank/swagger-ui.html) (recommended)
-
+- Use [**Swagger**](http://localhost:8080/bank/swagger-ui.html).
+You can get the request bodies from the postman collections json.
 

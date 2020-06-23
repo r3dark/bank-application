@@ -33,7 +33,7 @@ public class SwaggerConfig {
 	private ApiInfo metaData() {
 		return new ApiInfoBuilder()
 			.title("Bank Application")
-			.description("This is a  RESTful web microservice that can perform general bank operations.")
+			.description("This is a RESTful web microservice that can perform general bank operations.")
 			.version("1.0")
 			.license(null)
 			.licenseUrl(null)
